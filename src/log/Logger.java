@@ -9,6 +9,7 @@ public class Logger {
 	
 	public void logMeasurment(MeasurementLog logItem) {
 		historyLog.push(logItem); 
+		System.out.println("lol");
 	}
 	
 	
